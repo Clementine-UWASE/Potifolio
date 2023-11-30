@@ -1,0 +1,40 @@
+.nav{
+    background-color:#414141;
+    
+    display:flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+    justify-content: space-around;
+
+}
+
+    .inside{
+    display:flex;
+    text-decoration: none;
+    list-style-type: none;
+gap:50px;
+margin-right: -200px;
+
+   
+    
+    
+    
+
+}
+a{
+    text-decoration: none;
+    color:#cccccc;
+}
+.log{
+    width:30px;
+    height:30px;
+}
+.logd{
+    margin-left: -300px;
+    align-self: center;
+}
+.backimg{
+    background-image: url('code.png');
+    width:1521px;
+    height:500px;
+}
