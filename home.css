@@ -1,3 +1,4 @@
+/*home navbar*/
 .nav{
     background-color:#414141;
     
@@ -5,6 +6,7 @@
     justify-content: flex-end;
     margin-top: -10px;
     justify-content: space-around;
+    margin-right: -10px;
 
 }
 
@@ -15,12 +17,7 @@
 gap:50px;
 margin-right: -200px;
 
-   
-    
-    
-    
-
-}
+   }
 a{
     text-decoration: none;
     color:#cccccc;
@@ -33,8 +30,150 @@ a{
     margin-left: -300px;
     align-self: center;
 }
+
+/* body starting on home page*/
 .backimg{
     background-image: url('code.png');
-    width:1521px;
-    height:500px;
+    width:5000px;
+    height:700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+.open{
+    margin-top: -370px;
+    margin-left: 710px;
+    
+}
+.opentag{
+    width: 65px;
+    height:100px;
+}
+#github{
+   
+    
+    width: 50px;
+    height:50px;
+    margin-top: -260px;
+    margin-left: 1100px;
+}
+.git{
+    width:30px;
+    height:50px;
+}
+
+#linked{
+   
+    width: 50px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 1104px;
+
+}
+.linked{
+    width:30px;
+    height:50px;
+}
+#fb{
+    
+    width: 50px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 1105px;
+}
+.fb{
+    width:30px;
+    height:50px;
+}
+#insta{
+
+    width: 50px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 1105px;
+}
+.insta{
+    width:30px;
+    height:50px;
+}
+#twiter{
+   
+    width: 50px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 1105px; 
+}
+.twiter{
+    width:30px;
+    height:50px;
+}
+#call{
+    
+    width: 50px;
+    height:50px;
+    margin-top: -50px;
+    margin-left: 160px;  
+}
+.call{
+    width:30px;
+    height:50px;
+}
+.cal{
+    margin-left: 200px;
+    margin-top: -35px;
+    color: #cccccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#email{
+    
+    width: 50px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 160px; 
+}
+.email{
+    width:30px;
+    height:50px;
+    
+}
+.em{
+    margin-left: 200px;
+    margin-top: -35px;
+    color:#cccccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#image{
+   
+    width: 50px;
+    height:50px;
+    margin-top: -460px;
+    margin-left: 170px; 
+}
+.image{
+    width:197px;
+    height:210px;
+    border-radius: 300px;
+}
+#name{
+   
+    width: 180px;
+    height:30px;
+    margin-top: 180px;
+    margin-left: 180px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+#cle{
+    color:#cccccc;
+}
+#career{
+    
+    width: 270px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 180px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+}
+/* end css of body in home page*/
