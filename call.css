@@ -1,0 +1,27 @@
+.cod1{
+    background-color: #514949;
+    height:900px;
+    margin-top: -10px;
+}
+.cod2{
+    width:900px;
+    height:600px;
+    background-color: rgb(54,71,81);
+    margin-top: -840px;
+    margin-left: 300px;
+    font-size: 20px;
+    color:#cccccc;
+    padding: 30px;
+}
+#part2{
+    margin-left: 400px;
+}
+.back{
+    margin-top: -380px;
+    margin-left: 40px;  
+}
+#backupp{
+    
+    width:150px;
+    height:100px;
+}

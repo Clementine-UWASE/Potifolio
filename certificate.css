@@ -34,20 +34,90 @@ a{
 .bod{
     width:1519px;
     height:660px;
-    background-color:  #514949;;
+    background-color:  #514949;
 }
 .check{
-    margin-top: -600px;
+    margin-top: -550px;
     margin-left: 200px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .my{
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 .par{
-    margin-top: 150px;
-    margin-left: 188px;
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 300px;
+    height:50px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.butt{
+    margin-top: 80px;
+    margin-left: 220px;
     width: 200px;
     height:50px;
+    background-color: black;
 }
+#but{
+ 
+    margin-left: 900px;
+    width: 180px;
+    height:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #514949;
+    border-radius: 900px;
+
+}
+#bb{
+    margin-top: -40px;
+    margin-left: -670px;
+   
+    
+}
+.cert1{
+    width: 180px;
+    height:30px;
+    margin-left: 700px;
+     margin-top: -330px;
+
+}
+.ima1{
+    width: 350px;
+    height:300px;
+    margin-left: -120px;
+    
+}
+
+.cert2{
+    width: 180px;
+    height:30px;
+    margin-left: 960px;
+    margin-top: -30px;
+}
+.cmu1{
+    width: 350px;
+    height:300px;
+}
+.key1inov{
+    margin-top: 280px;
+    margin-left: 700px;
+}
+.key2inov{
+    margin-top: 10px;
+    margin-left: 700px;
+}
+.key1cmu{
+    margin-top: -50px;
+    margin-left: 1050px;
+}
+.key2cmu{
+    margin-top: 10px;
+    margin-left: 1050px;
+}
+/*ending of body*/
