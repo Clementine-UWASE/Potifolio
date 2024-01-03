@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #slider-container {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        #slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        #prev, #next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: white;
+            background-color: black;
+            border: none;
+            padding: 10px;
+            margin: 0;
+        }
+
+        #prev { left: 10px; }
+        #next { right: 10px; }
+    </style>
+</head>
+<body>
+
+<div id="slider-container">
+    <div id="slider">
+        <div class="slide"><img src="/image/1.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/10.PNG" alt="Image 2"></div>
+        <div class="slide"><img src="/image/11.PNG" alt="Image 3"></div>
+        <div class="slide"><img src="/image/13.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/14.PNG" alt="Image 2"></div>
+        <div class="slide"><img src="/image/16.PNG" alt="Image 3"></div>
+        <div class="slide"><img src="/image/17.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/18.PNG" alt="Image 2"></div>
+        <div class="slide"><img src="/image/19.PNG" alt="Image 3"></div>
+        <div class="slide"><img src="/image/2.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/21.PNG" alt="Image 2"></div>
+        <div class="slide"><img src="/image/22.PNG" alt="Image 3"></div>
+        <div class="slide"><img src="/image/23.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/24.PNG" alt="Image 2"></div>
+        <div class="slide"><img src="/image/26.PNG" alt="Image 3"></div>
+        <div class="slide"><img src="/image/3.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/4.PNG" alt="Image 2"></div>
+        <div class="slide"><img src="/image/5.PNG" alt="Image 3"></div>
+        <div class="slide"><img src="/image/7.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/8.PNG" alt="Image 2"></div>
+        <div class="slide"><img src="/image/9.PNG" alt="Image 3"></div>
+        <div class="slide"><img src="/image/ed.PNG" alt="Image 1"></div>
+        <div class="slide"><img src="/image/innov.PNG" alt="Image 2"></div>
+       
+
+        <!-- Add more slides as needed -->
+    </div>
+    <button id="prev">&lt;</button>
+    <button id="next">&gt;</button>
+</div>
+
+<script>
+    let currentIndex = 0;
+    const slider = document.getElementById('slider');
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    function updateSlider() {
+        const translateValue = -currentIndex * 100 + '%';
+        slider.style.transform = 'translateX(' + translateValue + ')';
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateSlider();
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateSlider();
+    }
+
+    document.getElementById('prev').addEventListener('click', prevSlide);
+    document.getElementById('next').addEventListener('click', nextSlide);
+</script>
+
+</body>
+</html>

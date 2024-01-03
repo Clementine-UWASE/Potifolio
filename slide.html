@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+            background-size: cover;
+        }
+        #size1{
+            width: 500px;
+            height:300px;
+        }
+        #size2{
+            width: 500px;
+            height:300px;
+        }
+        #size3{
+            width: 500px;
+            height:300px;
+        }
+        #size4{
+            width: 500px;
+            height:300px;
+        }
+        #size5{
+            width: 500px;
+            height:300px;
+        }
+        #size6{
+            width: 500px;
+            height:400px;
+        }
+        #size7{
+            width: 500px;
+            height:300px;
+        }
+        #size8{
+            width: 500px;
+            height:300px;
+        }
+        #size9{
+            width: 500px;
+            height:300px;
+        }
+        #size10{
+            width: 500px;
+            height:300px;
+        }
+        #size11{
+            width: 500px;
+            height:300px;
+        }
+        #size26{
+            width: 500px;
+            height:500px;
+        }
+        #size13{
+            width: 500px;
+            height:300px;
+        }
+        #size14{
+            width: 500px;
+            height:300px;
+        }
+        #size15{
+            width: 500px;
+            height:300px;
+        }
+        #size16{
+            width: 500px;
+            height:300px;
+        }
+        #size17{
+            width: 500px;
+            height:300px;
+        }
+    
+        #size18{
+            width: 500px;
+            height:300px;
+        }
+        
+        #size19{
+            width: 500px;
+            height:300px;
+        }
+        #size20{
+            width: 500px;
+            height:300px;
+        }
+        #size21{
+            width: 500px;
+            height:300px;
+        }
+        #size22{
+            width: 500px;
+            height:300px;
+        }
+        #size22{
+            width: 500px;
+            height:300px;
+        }
+        #size23{
+            width: 500px;
+            height:300px;
+        }
+        #size24{
+            width: 500px;
+            height:300px;
+        }
+        #size25{
+            width: 500px;
+            height:300px;
+        }
+        #size26{
+            width: 500px;
+            height:500px;
+        }
+        
+        .hi-slide{
+        position:relative;
+        width:754px;
+        height:292px;
+        border-radius: 50px;
+        margin:115px auto 0;
+        }
+        .hi-slide .hi-next,
+        .hi-slide .hi-prev{
+        position:absolute;
+        top:50%;
+        width:40px;
+        height:40px;
+        margin-top: -20px;
+        border-radius: 50px;
+        line-height: 40px;
+        text-align: center;
+        cursor:pointer;
+        background-color:white;
+        color:black;
+        transition: all 0.7s;
+        font-size: 20px;
+        font-weight: bold;
+
+        }
+        .hi-slide .hi-next:hover,
+        .hi-slide .hi-prev:hover{
+            opacity:1;
+            background-color: white;
+        }
+        .hi-slide .hi-prev{left:-60px;}
+        .hi-slide .hi-prev::before{content:'<';}
+       .hi-slide  .hi-next::before{content:'>';
+    }
+    .hi-slide .hi-next{right:-60px;}
+    .hi-slide > ul {
+        list-style:none;
+        position:relative;
+        width:754px;
+        height:292px;
+        margin:0;
+        padding:0;
+    }
+    .hi-slide > ul > li{
+        overflow:hidden;
+        position:absolute;
+        z-index:0;
+        top:147px;
+        left:377px;
+        height:0;
+        margin:0;
+        padding:0;
+        border:3px solid white;
+        cursor:pointer;
+        background-color: #333;
+    }
+    .hi-slide > ul > li > img{
+        width:100%;
+        height: 100%;
+        background-position:center;
+    }
+
+    </style>
+       
+</head>
+<body>
+   <div class="slide hi-slide">
+     <div class="hi-prev"></div>
+     <div class="hi-next"></div>
+     <ul class="size">
+        <li><img src="/image/1.PNG"id="size1" alt=""></li>
+        <li><img src="/image/2.png"id="size2"  alt=""></li>
+        <li><img src="/image/3.png"id="size3"  alt=""></li>
+        <li><img src="/image/4.png"id="size4" alt=""></li>
+        <li><img src="/image/5.png"id="size5" alt=""></li>
+        <li><img src="/image/6.png"id="size6" alt=""></li>
+        <li><img src="/image/7.png"id="size7" alt=""></li>
+        <li><img src="/image/8.png"id="size8" alt=""></li>
+        <li><img src="/image/9.png"id="size9" alt=""></li>
+        <li><img src="/image/10.png"id="size10" alt=""></li>
+        <li><img src="/image/11.png"id="size11" alt=""></li>
+        <li><img src="/image/26.png"id="size26" alt=""></li>
+        <li><img src="/image/13.png"id="size13" alt=""></li>
+        <li><img src="/image/14.png"id="size14" alt=""></li>
+        
+        <li><img src="/image/16.png"id="size16" alt=""></li>
+        <li><img src="/image/17.png"id="size17" alt=""></li>
+        <li><img src="/image/18.png"id="size18" alt=""></li>
+        <li><img src="/image/19.png"id="size19" alt=""></li>
+        <li><img src="/image/20.png"id="size20" alt=""></li>
+        <li><img src="/image/21.png"id="size21" alt=""></li>
+        <li><img src="/image/22.png"id="size22" alt=""></li>
+        <li><img src="/image/23.png"id="size23" alt=""></li>
+        
+        <li><img src="/image/ed.PNG"id="size25" alt=""></li>
+        <li><img src="/image/innov.PNG"id="size26" alt=""></li>
+     </ul>
+   </div> 
+   <script src="https://code.jquery.com/jquery-migrate-3.4.1.js"></script>
+   <script Src="js/package-lock.json.hislide.js"></script>
+   <script src="https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz"></script>
+   <script>
+    $('.slide').hislide();
+   </script>
+</body>
+</html>

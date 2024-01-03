@@ -177,9 +177,90 @@ a{
     
     width:30px;
     height:50px;
-}
+
     margin-left: 3px;
 
    
 }
+@media(max-width:700px){
+.bet {
+    flex-direction: column;
+}
+}
+@media(max-width:700px){
+    .inside {
+        flex-direction: column;
+       justify-content: center;
+    }
+    #github, #twiter, #call, #insta, #fb, #linked{
+        
+        margin-left: 0px;
+    }
+    
+}
+/* @media(max-width: 1394px) {
+    body{
+        
+      display:flex;
+      flex-direction: column;
+     
+    }
+    .backing{
+        height:900px;
+      }
+      .open .opentag{
+        display:none;
+     }
+      }
+      @media(max-width: 1158px){
+      .bet .inside{
+      display:flex;
+      flex-direction: column;
+     
+      }
+      .nav .logd  {
+        margin-left:20px;
+      }
+      #image .image{
+        margin-top: -400px;
+      }
+      #name,#cle{
+        margin-top: -20px;
+      }
+     .open .opentag{
+        display:none;
+     }
+     #github .git, #linked .linked,#fb .fb,#twiter .twiter,#insta .insi{
+      margin-left: -700px;
+      margin-top: -1000px;
+      height:500px;
+     }
+     #call .cal, #email .em{
+        margin-bottom: 500px; 
+        height:300px;
+     }
+     
+      }
+      @media(max-width:802px){
+        .bet .inside{
+            display: block;
+            margin-left: -200px;
+          
+         
+           
+      }
+      #github .git,#linked .linked,#fb .fb,#twiter .twiter,#insta .insi{
+       margin-right: -90px;
+      }
+      #call .cal, #email .em{
+        padding-bottom: 30px;
+       
+     } 
+    }
+    @media(max-width:450px){
+        
+    }
+     */
+
 /* end css of body in home page*/
+
